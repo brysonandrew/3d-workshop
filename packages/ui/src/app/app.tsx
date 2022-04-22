@@ -41,6 +41,7 @@ export const App = () => {
           </div>
         )}
       />
+      <Route render={() => <div>not found</div>} />
     </>
   );
 };
