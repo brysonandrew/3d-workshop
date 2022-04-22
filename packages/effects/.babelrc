@@ -1,0 +1,24 @@
+{
+  "presets": [
+    ["@babel/preset-react", {"runtime": "automatic"}],
+    "@babel/preset-typescript",
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "@babel/plugin-transform-runtime"
+    ],
+    ["styled-components", { "pure": true, "ssr": true }]]
+}

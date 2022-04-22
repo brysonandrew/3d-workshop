@@ -8,13 +8,18 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "target": "ES6",
+    "lib": ["DOM", "ES6", "DOM.Iterable", "ScriptHost", "ES2016.Array.Include"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "jsx": "react-jsx",
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@3d-workshop/effects": ["./packages/effects/index.tsx"],
+      "@3d-workshop/templates": ["packages/templates/src/index.ts"],
+      "@3d-workshop/ui": ["packages/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

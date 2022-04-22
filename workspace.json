@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "effects": "packages/effects",
+    "templates": "packages/templates",
+    "ui": "packages/ui"
+  }
 }
