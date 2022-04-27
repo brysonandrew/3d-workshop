@@ -21,5 +21,6 @@
       "@3d-workshop/ui": ["packages/ui/src/index.ts"]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
+  "includes": ["node_modules/webgl-strict-types/index.d.ts"]
 }

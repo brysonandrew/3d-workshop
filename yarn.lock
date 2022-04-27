@@ -57,6 +57,8 @@ __metadata:
     framer-motion-3d: 6.3.0
     jest: 27.2.3
     nx: 13.10.3
+    phenomenon: ^1.6.0
+    phenomenon-px: ^1.0.0
     prettier: ^2.5.1
     react: ^18.0.0
     react-dom: ^18.0.0
@@ -70,6 +72,8 @@ __metadata:
     tslib: ^2.0.0
     typescript: ~4.6.2
     url-loader: ^4.1.1
+    webgl-strict-types: ^1.0.5
+    webpack-glsl-loader: ^1.0.1
   languageName: unknown
   linkType: soft
 
@@ -7286,6 +7290,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs@npm:0.0.2":
+  version: 0.0.2
+  resolution: "fs@npm:0.0.2"
+  checksum: 3880da7d419d5a87d7127a9931ab533875a186ad0cd9bfd3334aa3fabe4f8bbfd3fedfb7c14a248a01181eaaea37e4141e6ff9f798eb48d04d7009f6b8008308
+  languageName: node
+  linkType: hard
+
 "fsevents@npm:^2.3.2, fsevents@npm:~2.3.2":
   version: 2.3.2
   resolution: "fsevents@npm:2.3.2"
@@ -10651,6 +10662,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path@npm:^0.11.14":
+  version: 0.11.14
+  resolution: "path@npm:0.11.14"
+  checksum: ba41aad7bd1f30e5bc4dd6b93c862173b8165371e32c4d79013afb744289d681b2b8960a4b307680aaab27276ab2457b23148da892792d76a0b572f2aae0e5b3
+  languageName: node
+  linkType: hard
+
 "pend@npm:~1.2.0":
   version: 1.2.0
   resolution: "pend@npm:1.2.0"
@@ -10662,6 +10680,22 @@ __metadata:
   version: 2.1.0
   resolution: "performance-now@npm:2.1.0"
   checksum: 534e641aa8f7cba160f0afec0599b6cecefbb516a2e837b512be0adbe6c1da5550e89c78059c7fabc5c9ffdf6627edabe23eb7c518c4500067a898fa65c2b550
+  languageName: node
+  linkType: hard
+
+"phenomenon-px@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "phenomenon-px@npm:1.0.0"
+  dependencies:
+    phenomenon: ^1.3.0
+  checksum: 29f82a89bb821f4ed8c87f163368c6f5aacb2d984d611ebdb89a09c78eb583c68463024e8d6b25ef1c9638914639df971696fd87204dc1155d95500820e6b31f
+  languageName: node
+  linkType: hard
+
+"phenomenon@npm:^1.3.0, phenomenon@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "phenomenon@npm:1.6.0"
+  checksum: e05ca8223a9df42c5cee02c082103ef96a349424fec18a8478d2171060a63095e21bef394529263c64d8082aff43204a0fa1355211fd7ac2a338c2839fffbca3
   languageName: node
   linkType: hard
 
@@ -13711,6 +13745,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"webgl-strict-types@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "webgl-strict-types@npm:1.0.5"
+  checksum: 4d1e25854ea7354cc4bab7d6ef6031a88d7b2f40dd5d1e85f0da833a85bf8ecf00c2906e6588d6eb62d80a3293a0c9c4e8629108ed99cf2f57c1017e8db3d8c4
+  languageName: node
+  linkType: hard
+
 "webidl-conversions@npm:^5.0.0":
   version: 5.0.0
   resolution: "webidl-conversions@npm:5.0.0"
@@ -13781,6 +13822,16 @@ __metadata:
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
   checksum: 6f827068353cb024f04edd275ae2828b6d47a3316c1a8677066d1500b1d1038b516399777792bb464ec40bc6f963abe9b24a5fd93b9b39487a3574b38ae45fd6
+  languageName: node
+  linkType: hard
+
+"webpack-glsl-loader@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "webpack-glsl-loader@npm:1.0.1"
+  dependencies:
+    fs: 0.0.2
+    path: ^0.11.14
+  checksum: 71bf17235104b9aecfe0062e7be3d196580f37d7b43cdd89d490ee0d0386e1867688ca807646de6ebbeaa04ab6182e702601c906445268e05be57447297b672a
   languageName: node
   linkType: hard
 

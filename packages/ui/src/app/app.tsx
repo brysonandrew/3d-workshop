@@ -1,4 +1,4 @@
-import { Link, Route } from "react-router-dom";
+import { Link, Route, Switch, BrowserRouter } from "react-router-dom";
 import styled from "styled-components";
 import { toPath } from "./toPath";
 import * as Ui from "..";
@@ -28,11 +28,12 @@ const Home = () => (
 
 export const App = () => {
   return (
-    <>
+    <Switch>
       {uis.map(({ Component, path }) => (
         <Route key={path} path={path} render={() => <Component />} />
       ))}
       <Route
+        key="/"
         path="/"
         exact
         render={() => (
@@ -41,8 +42,8 @@ export const App = () => {
           </div>
         )}
       />
-      <Route render={() => <div>not found</div>} />
-    </>
+      <Route key="404" render={() => <div>not found</div>} />
+    </Switch>
   );
 };
 

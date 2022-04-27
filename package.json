@@ -55,7 +55,9 @@
     "react-test-renderer": "18.0.0",
     "ts-jest": "27.0.5",
     "typescript": "~4.6.2",
-    "url-loader": "^4.1.1"
+    "url-loader": "^4.1.1",
+    "webgl-strict-types": "^1.0.5",
+    "webpack-glsl-loader": "^1.0.1"
   },
   "dependencies": {
     "@react-three/drei": "^9.5.0",
@@ -64,6 +66,8 @@
     "core-js": "^3.6.5",
     "framer-motion": "^6.3.0",
     "framer-motion-3d": "6.3.0",
+    "phenomenon": "^1.6.0",
+    "phenomenon-px": "^1.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-is": "^18.0.0",
