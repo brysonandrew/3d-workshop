@@ -18,7 +18,7 @@
         "assets": ["packages/effects/src/favicon.ico", "packages/effects/src/assets"],
         "styles": [],
         "scripts": [],
-        "webpackConfig": "packages/effects/webpack.config.js"
+        "webpackConfig": "packages/webpack.config.js"
       },
       "configurations": {
         "production": {
